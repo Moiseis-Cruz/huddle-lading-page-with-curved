@@ -74,7 +74,7 @@ main {
     margin-top: 160px;
     max-width: 1440px;
     height: 165px;
-    background: url(/src/images/bg-section-top-desktop-1.svg) no-repeat bottom center;
+    background: #000 url(/src/images/bg-section-top-desktop-1.svg) no-repeat bottom center;
     background-size: contain;
 }
 
@@ -108,7 +108,7 @@ main {
     /* padding-top: 300px; */
     max-width: 1440px;
     height: 139px;
-    background: url(/src/images/bg-section-bottom-desktop-1.svg) no-repeat center top;
+    background: #000 url(/src/images/bg-section-bottom-desktop-1.svg) no-repeat center top;
     background-size: contain;
 }
 
@@ -133,12 +133,20 @@ main {
 }
 
 .home .bg-top2 {
-    background-image: url(/src/images/bg-section-top-desktop-2.svg);
+    /* background-image: url(/src/images/bg-section-top-desktop-2.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 300px;
     background-size: contain;
-    width: 100%;
+    width: 100%; */
+
+    max-width: 1440px;
+    height: 156px;
+    background-image: url(/src/images/bg-section-top-desktop-2.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
 }
 
 .home .container-your-user {
@@ -165,12 +173,20 @@ main {
 }
 
 .home .bg-bottom2 {
-    background-image: url(/src/images/bg-section-bottom-desktop-2.svg);
+    /* background-image: url(/src/images/bg-section-bottom-desktop-2.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
     padding-top: 300px;
-    width: 100%;
+    width: 100%; */
+    
+    max-width: 1440px;
+    height: 139px;
+    background-image: url(/src/images/bg-section-bottom-desktop-2.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
 }
 
 .home .subtitle {
