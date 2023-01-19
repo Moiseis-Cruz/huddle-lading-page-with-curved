@@ -186,10 +186,19 @@ main {
     background: url(/src/images/bg-section-top-desktop-1.svg) no-repeat bottom center;
     background-size: contain; */
 
+    /*
     margin-top: 160px;
     max-width: 1440px;
     height: 158px;
     background: url(/src/images/bg-footer-top-desktop.svg) no-repeat bottom center;
+    */
+
+    max-width: 1440px;
+    height: 158px;
+    background-image: url(/src/images/bg-footer-top-desktop.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    /* background-color: black; */
     background-size: contain;
 }
 
