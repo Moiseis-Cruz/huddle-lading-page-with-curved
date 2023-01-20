@@ -165,15 +165,13 @@ main {
     width: 45%;
 }
 
-.home .bg-bottom2 {    
-    /* padding-top: 300px; */
-    margin-bottom: 150px;
+.home .bg-bottom2 {
     max-width: 1440px;
     height: 139px;
+    margin-bottom: 150px;
     background-image: url(../images/bg-section-bottom-desktop-2.svg);
     background-position: top center;
     background-repeat: no-repeat;
-    /* background-color: black; */
     background-size: contain;
 }
 
@@ -190,7 +188,6 @@ main {
     background-image: url(../images/bg-footer-top-desktop.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    /* background-color: black; */
     background-size: contain;
 }
 
