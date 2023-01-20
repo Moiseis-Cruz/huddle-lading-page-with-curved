@@ -66,7 +66,7 @@ main {
 .home .bg-top1 {
     max-width: 1440px;
     height: 165px;
-    background-image: url(/src/images/bg-section-top-desktop-1.svg);
+    background-image: url(../images/bg-section-top-desktop-1.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
     /* background-color: black; */
@@ -103,7 +103,7 @@ main {
     margin-bottom: 120px;
     max-width: 1440px;
     height: 139px;
-    background-image: url(/src/images/bg-section-bottom-desktop-1.svg);
+    background-image: url(../images/bg-section-bottom-desktop-1.svg);
     background-position: top center;
     background-repeat: no-repeat;
     /* background-color: black; */
@@ -135,7 +135,7 @@ main {
     margin-top: 120px;
     max-width: 1440px;
     height: 156px;
-    background-image: url(/src/images/bg-section-top-desktop-2.svg);
+    background-image: url(../images/bg-section-top-desktop-2.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
     /* background-color: black; */
@@ -170,7 +170,7 @@ main {
     margin-bottom: 150px;
     max-width: 1440px;
     height: 139px;
-    background-image: url(/src/images/bg-section-bottom-desktop-2.svg);
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
     background-position: top center;
     background-repeat: no-repeat;
     /* background-color: black; */
