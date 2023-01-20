@@ -69,6 +69,12 @@
         text-align: center;
     }
 
+    .home .bg-top1 {
+        max-width: 375px;
+        height: 112px;
+        background-image: url(../images/bg-section-top-mobile-1.svg);
+    }
+
     .home .grow-together {
         flex-direction: column-reverse;
         align-items: center;
@@ -85,6 +91,12 @@
     .home .grow-together p {
         width: 320px;
         font-size: 1.4rem;
+    }
+
+    .home .bg-bottom1 {
+        max-width: 375px;
+        height: 52px;
+        background-image: url(../images/bg-section-bottom-mobile-1.svg);
     }
 
     .home .grow-together img {
@@ -113,6 +125,13 @@
         margin-top: 20px;
     }
 
+    .home .bg-top2 {
+        margin-top: 103px;
+        max-width: 375px;
+        height: 156px;
+        background-image: url(../images/bg-section-top-mobile-2.svg);
+    }
+
     .home .container-your-user {
         flex-direction: column-reverse;
         justify-content: center;
@@ -137,6 +156,12 @@
         margin-top: 15px;
     }
 
+    .home .bg-bottom2 {
+        max-width: 1440px;
+        height: 139px;
+        background-image: url(../images/bg-section-bottom-mobile-2.svg);
+    }
+
     .home .subtitle {
         font-size: 2.5rem;
     }
@@ -144,7 +169,7 @@
     .after-footer {
         width: 375px;
         height: 53px;
-        background: url(/src/images/bg-footer-top-mobile.svg) no-repeat bottom;
+        background: url(../images/bg-footer-top-mobile.svg) no-repeat bottom;
         background-size: cover;
     }
 
@@ -155,7 +180,6 @@
     }
     
     footer .container-footer div {
-        /* background-color: darkgoldenrod; */
         width: 320px;
         margin: auto;
     }
