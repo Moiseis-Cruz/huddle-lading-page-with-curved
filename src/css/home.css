@@ -64,18 +64,15 @@ main {
 }
 
 .home .bg-top1 {
-    /* background-image: url(/src/images/bg-section-top-desktop-1.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-bottom: 300px;
-    background-size: contain;
-    width: 100%; 
-    width="1440" height="165"*/
-    margin-top: 160px;
     max-width: 1440px;
     height: 165px;
-    background: #000 url(/src/images/bg-section-top-desktop-1.svg) no-repeat bottom center;
+    background-image: url(/src/images/bg-section-top-desktop-1.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-color: black;
     background-size: contain;
+    /* padding-bottom: 300px; */
+    /* margin-top: 160px; */
 }
 
 .home .grow-together {
@@ -102,13 +99,13 @@ main {
 }
 
 .home .bg-bottom1 {
-    /* background-image: url(/src/images/bg-section-bottom-desktop-1.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: top; */
     /* padding-top: 300px; */
     max-width: 1440px;
     height: 139px;
-    background: #000 url(/src/images/bg-section-bottom-desktop-1.svg) no-repeat center top;
+    background-image: url(/src/images/bg-section-bottom-desktop-1.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: black;
     background-size: contain;
 }
 
@@ -133,13 +130,7 @@ main {
 }
 
 .home .bg-top2 {
-    /* background-image: url(/src/images/bg-section-top-desktop-2.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-bottom: 300px;
-    background-size: contain;
-    width: 100%; */
-
+    /* padding-bottom: 300px; */
     max-width: 1440px;
     height: 156px;
     background-image: url(/src/images/bg-section-top-desktop-2.svg);
@@ -172,14 +163,8 @@ main {
     width: 45%;
 }
 
-.home .bg-bottom2 {
-    /* background-image: url(/src/images/bg-section-bottom-desktop-2.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    padding-top: 300px;
-    width: 100%; */
-    
+.home .bg-bottom2 {    
+    /* padding-top: 300px; */
     max-width: 1440px;
     height: 139px;
     background-image: url(/src/images/bg-section-bottom-desktop-2.svg);
