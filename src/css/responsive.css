@@ -155,7 +155,7 @@
     }
     
     footer .container-footer div {
-        background-color: darkgoldenrod;
+        /* background-color: darkgoldenrod; */
         width: 320px;
         margin: auto;
     }
