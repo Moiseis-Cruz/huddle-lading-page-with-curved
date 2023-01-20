@@ -187,7 +187,7 @@ main {
     max-width: 1440px;
     height: 158px;
     margin-top: 150px;
-    background-image: url(/src/images/bg-footer-top-desktop.svg);
+    background-image: url(../images/bg-footer-top-desktop.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
     /* background-color: black; */
