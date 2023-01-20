@@ -69,10 +69,10 @@ main {
     background-image: url(/src/images/bg-section-top-desktop-1.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-color: black;
+    /* background-color: black; */
     background-size: contain;
     /* padding-bottom: 300px; */
-    /* margin-top: 160px; */
+    margin-top: 100px;
 }
 
 .home .grow-together {
@@ -100,12 +100,13 @@ main {
 
 .home .bg-bottom1 {
     /* padding-top: 300px; */
+    margin-bottom: 120px;
     max-width: 1440px;
     height: 139px;
     background-image: url(/src/images/bg-section-bottom-desktop-1.svg);
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: black;
+    /* background-color: black; */
     background-size: contain;
 }
 
@@ -131,12 +132,13 @@ main {
 
 .home .bg-top2 {
     /* padding-bottom: 300px; */
+    margin-top: 120px;
     max-width: 1440px;
     height: 156px;
     background-image: url(/src/images/bg-section-top-desktop-2.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-color: black;
+    /* background-color: black; */
     background-size: contain;
 }
 
@@ -165,12 +167,13 @@ main {
 
 .home .bg-bottom2 {    
     /* padding-top: 300px; */
+    margin-bottom: 150px;
     max-width: 1440px;
     height: 139px;
     background-image: url(/src/images/bg-section-bottom-desktop-2.svg);
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: black;
+    /* background-color: black; */
     background-size: contain;
 }
 
@@ -183,10 +186,11 @@ main {
 .after-footer {
     max-width: 1440px;
     height: 158px;
+    margin-top: 150px;
     background-image: url(/src/images/bg-footer-top-desktop.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-color: black;
+    /* background-color: black; */
     background-size: contain;
 }
 
