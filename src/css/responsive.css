@@ -173,6 +173,10 @@
         background-size: cover;
     }
 
+    footer {
+        padding: 100px 0 50px;
+    }
+
     footer .container-footer {
         flex-direction: column-reverse;
         margin: auto;
@@ -186,6 +190,12 @@
 
     footer .container-footer h2 {
         font-size: 2rem;
+    }
+
+    footer ul li {
+        margin-top: 50px;
+        font-size: 3rem;
+        margin-right: 15px;
     }
 
     footer .container-footer .description {
