@@ -177,6 +177,19 @@
         padding: 100px 0 50px;
     }
 
+    footer form {
+        flex-direction: column;
+    }
+
+    .form-control {
+        /* background-color: brown; */
+        height: 74px;
+    }
+
+    button {
+        margin-left: auto;
+    }
+
     footer .container-footer {
         flex-direction: column-reverse;
         margin: auto;
