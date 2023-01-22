@@ -60,6 +60,7 @@ main {
 .home .home-container .home-container-content .stats {
     font-size: 2rem;
     text-align: center;
+    color: hsla(192, 100%, 9%, 0.64);
 }
 
 .home .bg-top1 {
