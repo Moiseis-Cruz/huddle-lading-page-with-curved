@@ -182,7 +182,6 @@
     }
 
     .form-control {
-        /* background-color: brown; */
         height: 74px;
     }
 
@@ -204,6 +203,7 @@
     footer .container-footer .image-logo {
         width: 220px;
         height: auto;
+        margin-top: 100px;
     }
 
     footer .container-footer h2 {

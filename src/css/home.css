@@ -249,12 +249,19 @@ footer form {
     margin-right: 40px;
 }
 
-/* --tertiary--color */
+.form-control.error input {
+    border: 2px solid var(--tertiary--color);
+}
+
+.form-control.error small{
+    color: var(--tertiary--color);
+    visibility: visible;
+}
 
 input[type = email] {
     padding: 15px 10px;
     background-color: var(--secundary-neutral);
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     width: 100%;
     outline: none;
     color: var(--primary-neutral);
@@ -263,7 +270,6 @@ input[type = email] {
 }
 
 button {
-    /* padding: 10px 40px; */
     width: 150px;
     border-radius: 5px;
     border: 0;

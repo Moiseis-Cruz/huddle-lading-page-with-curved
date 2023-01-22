@@ -17,3 +17,11 @@ a {
     display: inline-block;
     color: var(--secundary-neutral);
 }
+
+.form-control small {
+    visibility: hidden;
+    /* position: absolute; */
+    /* margin-top: 5px; */
+    /* font-size: 14px; */
+
+}
