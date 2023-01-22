@@ -230,6 +230,10 @@ footer ul li {
     margin-right: 20px;
 }
 
+footer ul li a:active {
+    color: aqua;
+}
+
 footer ul li:active {
     color:hsl(192, 100%, 9%);
 }
@@ -237,24 +241,33 @@ footer ul li:active {
 
 footer form {
     margin-top: 40px;
+    display: flex;
 }
+
+.form-control {
+    width: 300px;
+    margin-right: 40px;
+}
+
+/* --tertiary--color */
 
 input[type = email] {
     padding: 15px 10px;
     background-color: var(--secundary-neutral);
     border: 1px solid #ccc;
-    width: 300px;
+    width: 100%;
     outline: none;
     color: var(--primary-neutral);
     border-radius: 5px;
-    margin-right: 40px;
     font-family: 'Poppins', sans-serif;
 }
 
 button {
-    padding: 15px 40px;
+    /* padding: 10px 40px; */
+    width: 150px;
     border-radius: 5px;
     border: 0;
+    height: 52px;
     font-size: 1.5rem;
     background-color: var(--primary-color);
     color: var(--secundary-neutral);
