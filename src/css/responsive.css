@@ -201,6 +201,11 @@
         margin: auto;
     }
 
+    footer .container-footer .image-logo {
+        width: 220px;
+        height: auto;
+    }
+
     footer .container-footer h2 {
         font-size: 2rem;
     }
