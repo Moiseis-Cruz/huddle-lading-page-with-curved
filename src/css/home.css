@@ -249,6 +249,10 @@ footer form {
     border: 2px solid var(--tertiary--color);
 }
 
+.form-control.success input {
+    border: 2px solid #00b95f;
+}
+
 .form-control.error small{
     color: var(--tertiary--color);
     visibility: visible;
