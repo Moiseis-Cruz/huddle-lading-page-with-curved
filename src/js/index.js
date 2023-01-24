@@ -27,6 +27,10 @@ function errorValidation(input, message) {
     formControl.className = "form-control error"
 }
 
-function successValidation(){
-    alert("You're subscribed!")
+function successValidation(input){
+    const formControl = input.parentElement;
+    
+    formControl.className = "form-control success"
+
+    // window.alert("You're subscribed!")
 }
