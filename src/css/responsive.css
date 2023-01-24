@@ -136,8 +136,6 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        padding: 50px 70px;
-        background-color: rgb(246,251,255);;
     }
 
     .home .container-your-user img {
