@@ -28,5 +28,5 @@ function errorValidation(input, message) {
 }
 
 function successValidation(){
-    alert("Você está inscrito!!")
+    alert("You're subscribed!")
 }
