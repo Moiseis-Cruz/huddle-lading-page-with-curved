@@ -79,7 +79,7 @@ main {
     justify-content: space-around;
     padding: 50px 70px;
     text-align: left;
-    background-color: rgb(246,251,255);
+    background-color: var(--secundary-neutral);
 }
 
 .home .grow-together h2 {
@@ -141,7 +141,7 @@ main {
     justify-content: space-around;
     align-items: center;
     padding: 50px 70px;
-    background-color: rgb(246,251,255);;
+    background-color: var(--secundary-neutral);
 }
 
 .home .container-your-user h2 {
@@ -234,11 +234,6 @@ footer ul li {
 footer ul li a:active {
     color: aqua;
 }
-
-footer ul li:active {
-    color:hsl(192, 100%, 9%);
-}
-
 
 footer form {
     margin-top: 40px;
